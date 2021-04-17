@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(9, 246, 227);
+    color:black;
+    
+   
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 20px;
+    font: bold 18px verdana;
+    color: rgb(249, 250, 250);
+    border:black solid ;
+    max-width: 300px;
+    background-image: linear-gradient(black, rgb(6, 240, 248), black);
+    margin-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.menu {
+ text-align: center;
+}
+    
+
+
+    h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .mi {
+        height: 200px;
+        width: 300px;
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+        
+    }
+
+    .topo {
+     
+     font-size: 22px;
+     padding: 40px;
+     margin: 20px;
+     border: solid 2px;
+     margin-left: auto;
+     margin-right: auto;
+     width: 300px;
+     background-color: rgb(63, 119, 119);
+    }
+
+
+    @media (min-width: 768px) {
+
+        h1 {
+            font-size: 50px;
+            color: rgb(50, 37, 231);
+        }
+
+        .menu li {
+            display: inline-block;
+            width: 180px;
+            color: re;
+            }
+            .mi{
+                height:400px;
+                width: 730px;
+            }
+
+            .topo { 
+                width: 730px;
+                font-size: 30px;
+            }
+         body {
+             background-color: rgb(243, 146, 247);
+             color: rgb(250, 246, 246);
+            }
+    }
+        
+    @media (min-width: 900px) {
+
+        h1 {
+            font-size: 50px;
+            color: rgb(21, 231, 102);
+        } 
+    }
+
+    /*GEAR*/
+    .gear-bg {
+        transition: .3s ease-out;
+        fill:rgb(20, 20, 20);
+        stroke: rgb(252, 10, 10);
+    }
+
+    .gear-bg:hover {
+    fill:rgb(8, 8, 247);  
+    stroke-width: 20;  
+    }
+.gear-icon {
+    transition: transform 5.4s ease-out;
+    transform-origin: 200px 50px;
+}
+    .gear:hover .gear-icon {
+        transform: rotate(760deg);
+    }
+
+    /*cactus*/
+    .cactus {
+        fill: rgb(10, 78, 14);
+        stroke: rgb(82, 151, 73);
+        stroke-width: 20;
+    }
+    .cactilio {
+        margin:40px;
+        border-radius: 30%;
+        
+        border: solid 10px;
+        padding: 30px;
+        text-align: center;
+        background-color: yellow; 
+    }
+    .cactus:hover {
+        fill: rgb(35, 38, 235);
+        stroke: rgb(247, 43, 16); 
+        transition: 0.8s ease-out;
+    }
+
+    .cactilio:hover {
+        background-color: rgb(75, 214, 11);
+        transition: 1.2s ease-out;
+    }
